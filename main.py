@@ -4,8 +4,6 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
                              QLineEdit, QPushButton, QVBoxLayout)
 from PyQt5.QtCore import Qt
-from requests import RequestException
-
 
 class WeatherApp(QWidget):
     def __init__(self):
